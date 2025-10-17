@@ -5,13 +5,13 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     background: {
-      default: '#ffffff', // white background
+      default: '#ffffff', 
     },
     primary: {
-      main: '#D81B60', // pink tone (TWICE theme)
+      main: '#D81B60', 
     },
     secondary: {
-      main: '#6A1B9A', // purple accent
+      main: '#6A1B9A', 
     },
     text: {
       primary: '#4A148C',

@@ -49,7 +49,7 @@ import {
 import theme from "./theme";
 import { BarChart as BarChartIcon } from "@mui/icons-material";
 
-// ✅ Top Navigation Bar (Replaces Sidebar)
+// Top Navigation Bar
 const Topbar = () => {
   const menuItems = [
     { text: "Dashboard", icon: <DashboardIcon /> },
@@ -95,7 +95,7 @@ const Topbar = () => {
   );
 };
 
-// ✅ Avatar Badge (Jennie Only)
+// Avatar Badge (Jennie Only)
 const AvatarBadgeDemo = () => {
   const members = [
     {
@@ -121,7 +121,7 @@ const AvatarBadgeDemo = () => {
   );
 };
 
-// ✅ Profile Card
+// Profile Card
 const ProfileCard = () => (
   <Card sx={{ borderRadius: 2, boxShadow: 2, p: 2, height: "100%" }}>
     <CardMedia
@@ -150,7 +150,7 @@ const ProfileCard = () => (
   </Card>
 );
 
-// ✅ Members List
+// Members List
 const UsersList = () => {
   const members = [
     { name: "Jisoo", role: "Lead Vocalist, Visual", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1AZrAVEwX4G5MEwMRbHY1BmOtw_49fp2PA&s" },
@@ -173,7 +173,7 @@ const UsersList = () => {
   );
 };
 
-// ✅ Stats Card
+// Stats Card
 const StatsCard = () => {
   const stats = [
     { icon: <GroupIcon color="primary" />, label: "Total Members", value: 4 },
@@ -198,7 +198,7 @@ const StatsCard = () => {
   );
 };
 
-// ✅ Members Table
+// Members Table
 const MembersTable = () => {
   const [order, setOrder] = useState("asc");
   const [orderBy, setOrderBy] = useState("name");
@@ -259,7 +259,7 @@ const MembersTable = () => {
   );
 };
 
-// ✅ FAQ Section
+// FAQ Section
 const FAQSection = () => (
   <Card sx={{ p: 3, borderRadius: 2, boxShadow: 2, height: "100%" }}>
     <Typography variant="h6" gutterBottom color="primary">
@@ -286,7 +286,7 @@ const FAQSection = () => (
   </Card>
 );
 
-// ✅ Main App Layout
+// Main App Layout
 function App() {
   return (
     <ThemeProvider theme={theme}>
